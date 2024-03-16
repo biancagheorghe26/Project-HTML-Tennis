@@ -1,0 +1,117 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2980b9;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #1a5276;
+}
+
+#menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav.show {
+        display: flex;
+    }
+}
+*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a5276; /* Tennis court blue */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 50px; /* Adjust the size based on your logo */
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2980b9; /* Tennis ball blue */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #1a5276;
+}
+
+#menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav.show {
+        display: flex;
+    }
+}
